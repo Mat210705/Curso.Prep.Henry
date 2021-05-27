@@ -1,0 +1,16 @@
+Conceptos 2:
+
+For: En programacion los softwares generalmente se ejecutan bucles. El primero de ellos se llama "for", y para declarar 
+    este bucle necesitaremos tres cosas, declarar una variable y su valor, una exprecion condicional que quiere decir que la variable
+    cuando llegue a este numero se declarara en false y terminara, sino el bucle seria infinito, y sumarle 1 a la variable para vaya 
+    probando los casos hasta que ya no se cumplan.
+
+Operadores Logicos: Los Operadores Logicos sirven para combinar expresiones y preguntar si todas o algunas de ellas son verdaderas.
+                    El primero operador logico es es && esto evaluara si las expresiones son verdaderas(true), si una de ellas es falsas
+                    declarara false. Luego esta el operador or || este tomara las expreciones y declarara true si una o ambas de ellas son verdaderas
+                    para que declare false todas ellas tienen que ser falsas. 
+                    Por ultimo y para terminar sigue el operador !not (no) este sirve para negar todo valor que se le pase un ejemplo seria
+                    numero !== "numero", quiere decir que la variable numero no es igual al string numero.
+
+
+
