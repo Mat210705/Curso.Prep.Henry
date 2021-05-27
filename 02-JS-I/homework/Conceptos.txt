@@ -1,0 +1,17 @@
+*Variables: Una Variable es la forma de asignarle valor a algo este se puede
+            ser un nombre, numero, objeto, etc, para luego de asignarle un valor 
+            usarlo mas tarde en cualquier cosa en la que queramos hacerlo.
+
+*Strings: Los Strings son bloques de texto, es decir cualquier cosa que nosotros querramos
+        que aparesca como texto, nombres, oraciones, parrafos, listas, etc, estas para que
+        el codigo lo tome como Strings van entre comillas ("texto"), es decir todo texto entre
+        comillas es un Strings
+
+*Funciones: Las funciones son utilizadas para utilizar las variables y hacer algo con ellas como
+            realizar operaciones, generar que aparesca un texto, o simplemente ejecutar una accion.
+
+*Declaraciones: Las declaraciones sirven para devolver algo, es decir dentro de las funciones cuando
+                ponemos la declaracion "return" la funcion se detiene y devuelve lo solicitado es la unica 
+                forma de sacar datos de una funcion,
+
+*Valores Boleanos: Un valor booleano representa un valor de verdad; es decir, TRUE o FALSE, verdadero o falso.
