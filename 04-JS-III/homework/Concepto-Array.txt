@@ -1,0 +1,5 @@
+*array: Un array es un contenedor de datos como String, numeros enteros, decimales, o boleanos, datos basicos vistos anteriormente
+        es decir, supongamos que queremos guardar una lista de supermercado y recorrer esta lista, poner y sacar productos o contarlos,
+        podemos hacer esto con un array llamando a una variable y guardando estos elementos dentro de corchetes.
+     Ej: var = const listaSupermercado = ['leche', 'pan', 'azucar', 'sal']; 
+        Dentro de este array el dato 'leche' tiene como valor 0 le sigue 'pan' como valor uno y asi sucesivamente.  
