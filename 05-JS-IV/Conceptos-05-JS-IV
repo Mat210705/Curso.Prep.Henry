@@ -1,0 +1,56 @@
+*Objetos: Los objetos pueden ser parecios a las matrices con la diferencia que las matrices pueden guardar varios elementos mientras
+        en los objetos se guardan varios VALORES de un solo elemento. Para guardar estos valores se usa un concepto llamado Clave-Valor
+        La clave(key) es el identificador y el valor(value) es lo que queremos guardar.
+        
+        //en este ejemplo se muestra como se asignan claves y valores a un objeto USUARIO seria el OBJETO, el mismo siempre se declara a
+        traves de una variable o constante, luego se habren llaves y en ellas se encierran la cantidad de pares de claves:valor que se le
+        quiera asignar a este objeto, el valor puede ser cualquier tipo de dato Javascript, es decir un boleano, un numero, un string, etc.//
+        const usuario = {
+        username: 'juan.perez',
+        password: 'loremipsumpwd123',
+        lovesJavascript: true,
+        favoriteNumber: 42
+        };
+
+*Propiedades: Las propiedades se pueden usar asignando valores lo cual funciona igual que acceder a ellos. Podemos hacerlo, cuando creamos el objeto,
+            esto se puede hacer con notación de puntos o con notación de corchetes estas notaciones las explicaremos mas adelante para ir cerrando conceptos
+            //Ejemplo//
+            nuevoUsuario.username = 'otro.nombre.de.usuario';
+            nuevoUsuario['password'] = '12345';
+            nuevoUsuario[loveJSString] = true
+
+
+*Metodos: Los Metodos en los objetos se establecen a traves de funciones asi como anteriormente hemos visto .length, .push. etc.
+
+*Bucles for in: Al no tener indices numericos en los objetos los Bucles vistos anteriormente no funcionan por eso en este caso usamos el blucle 
+                for in(for in loop), esto recorrera cada clave y valor de cada objeto.
+                
+                Aqui en este ejempo se esta haciendo un bucle sobre el objeto usuario recorriendo cada clave y sus valores correspondientes
+                el console log nos tira el resultado de cada clave con su valor debajo de la misma.
+                for (let clave in usuario){
+                console.log(clave);
+                console.log(usuario[clave]);
+                }
+
+                // username
+                // 'juan.perez'
+                // password
+                // 'loremipsumpwd123'
+                // lovesJavascript
+                // true
+                // favoriteNumber
+                // 42
+
+
+*Notacion de puntos: Con la notacion de puntos podemos acceder a los valores, llamando primero al objeto y luego de un punto escribiendo su clave.
+                    De esta manera obtenemos los valores.
+                    //Ejemplo//
+                    user.lovesJavascript; // true
+                    user.username;        // juan.perez
+
+*Notacion de Corchetes: La notación de corchetes es como llamar a un elemento en una matriz con  una variable que apunte a una cadena o número.
+                        //Ejemplo//
+                        const passString = 'password';
+                        user['lovesJavascript']; // true
+                        user['username'];        // juan.perez
+                        user[passString];        // loremipsumpwd123
