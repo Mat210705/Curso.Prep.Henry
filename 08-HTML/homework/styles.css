@@ -1,0 +1,21 @@
+    h1 {
+        color: blue;
+    }
+    
+    img {
+        width: 400px;
+    }
+    
+    #thirdDiv {
+        width: 500px;
+        height: 600px background-color gray;
+    }
+    
+    #spanId {
+        font-size: 50px;
+    }
+    
+    #thirdDiv {
+        padding: 50;
+        border: black 20px solid;
+    }
