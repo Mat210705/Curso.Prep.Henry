@@ -1,0 +1,6 @@
+Callabacks: Los Callabacks o (Cb) son las formas de llamar a las funciones dentro de otras,
+es decir cuando hacemos funciones para realizar algun tipo de saludo como hola, chau, que tal,
+concatenamos strings con un nombre, un usuario, o alguna variable antes declarada, lo que hacemos 
+con Callabacks es crear una funcion que use cualquiera de las funciones anteriores sin tener que 
+volver a hacerlas y usarlas de manera mas dinamica. En el archivo prueba.js adjuntamos un ejemplo
+de lo explicado
